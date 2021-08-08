@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.h-menu {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 590px;
+  padding: 23px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/bg1.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 23px;
+}
+.heading > h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  padding: 23px;
+}
+.heading > p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 233px;
+  margin-right: 233px;
+  font-family: "Open Sans", sans-serif;
+}
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+  
+  .arrow-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  .heading2>h3{
+      text-align: center;
+      padding: 23px;
+      margin-top: 70px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+  }
+  .heading2>h1{
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+  }
+ .listmenu{
+    width: 520px;
+    padding: 25px;
+    margin: 20px;
+  }
+  .listmenu>h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  .listmenu>p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    text-align: center;
+  }
+  .menu-list{
+      display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+.flavours{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/desert.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+    width: 125px;
+    height: 150px;
+    padding: 25px;
+    margin: 20px;
+    background:#00000080;
+    border: 1px solid black transparent;
+    border-radius: 10px;
+
+   
+    
+
+}
+.box-model{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 550px;
+
+}
+.box>p{
+    color: #fff;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+.icons{
+  display: flex;
+  justify-content: center;
+align-items: center;
+padding: 11px;
+
+}
+.one-line>p{
+  color: #fff;
+  text-align: right;
+  margin-right: 88px;
+  font-size: 1.5rem;
+
+}
+.one-line>p>a:link, a:visited {
+ 
+  color: #fff;
+  
+}
