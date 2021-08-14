@@ -175,3 +175,32 @@ padding: 11px;
   color: #fff;
   
 }
+.about{
+  margin-top: 20px;
+}
+.about-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+
+}
+.boxabout{
+  padding: 30px;
+  height: 360px;
+  width: 375px;
+  
+}
+.boxabout>img{
+
+  height: 400px;
+  width: 413px;
+}
+.boxabout>h2{
+  text-align: center;
+  padding-top: 23px;
+}
+.boxabout>p{
+ text-align: center;
+ padding-top: 34px;
+}
