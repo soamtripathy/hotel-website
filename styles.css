@@ -204,3 +204,6 @@ padding: 11px;
  text-align: center;
  padding-top: 34px;
 }
+html{
+  scroll-behavior: smooth;
+}
