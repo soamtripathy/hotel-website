@@ -37,7 +37,7 @@
 }
 .intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./img/bg1.jpeg);
+    url(img/bg1.jpeg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@
 }
 .flavours{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/desert.jpg);
+    url(img/desert.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
